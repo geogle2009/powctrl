@@ -1,0 +1,88 @@
+
+.m-item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	padding-top: 40rpx;
+}
+.m-left {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	width: 130rpx;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	        align-items: flex-start;
+}
+.m-content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	word-break: break-all;
+}
+.m-right {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	width: 120rpx;
+	width: 40rpx;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	        align-items: flex-start;
+}
+.head_icon {
+	width: 90rpx;
+	height: 90rpx;
+	border-radius: 50%;
+	border:  1rpx solid #eee;
+}
+.m-content-head {
+	position: relative;
+}
+.m-content-head-right {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	        justify-content: flex-end;
+}
+.m-content-head-customer {
+	text-align: left;
+	font-size: 28rpx;
+	background: -webkit-linear-gradient(4deg,rgba(80,134,255,1) 0%,rgba(51,100,236,1) 100%);
+	background: linear-gradient(86deg,rgba(80,134,255,1) 0%,rgba(51,100,236,1) 100%);
+	border-radius: 42rpx 4rpx 42rpx 42rpx;
+	padding: 20rpx 28rpx;
+	color: #fff;
+}
+.m-content-head-home {
+	display: inline-block;
+	font-size: 28rpx;
+	background: #f7f7f7;
+	color: #333;
+	border-radius: 14rpx;
+	padding: 20rpx 28rpx;
+	border-radius: 4rpx 42rpx 42rpx 42rpx;
+}
+
